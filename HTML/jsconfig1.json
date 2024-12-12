@@ -1,0 +1,12 @@
+{
+  "ConnectionStrings": {
+    "CalendarContext": "Server=(localdb)\\mssqllocaldb;Database=DayPilot.TutorialAspNetWeeklyCalendar;Trusted_Connection=True"
+  },
+  "Logging": {
+    "IncludeScopes": false,
+    "LogLevel": {
+      "Default": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}

@@ -1,0 +1,17 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <title>My Project</title>
+    <script src="~/js/daypilot/daypilot-all.min.js"></script>
+</head>
+<body>
+    <div id="dp"></div>
+    <script>
+        const calendar = new DayPilot.Calendar("dp", {
+            viewType: "Week"
+        });
+        calendar.init();
+    </script>
+</body>
+</html>
